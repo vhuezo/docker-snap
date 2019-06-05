@@ -32,6 +32,9 @@ If you are using an alternative snap-compatible Linux distribution ("classic" in
 * Create and join the `docker` group.
 
       $ sudo addgroup --system docker
+      ó
+      $ sudo groupadd --system docker
+      
       $ sudo adduser $USER docker
       $ newgrp docker
 
